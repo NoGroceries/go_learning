@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e9014b-80b6-4baa-98a5-5b5edcbd8e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch3-expression/control_flow/if/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch3-expression/control_flow/switch/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4-func/argument/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4-func/define/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2-type/type/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-type/type/type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3-expression/binary_operation/binary_operation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/binary_operation/binary_operation_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,46 +17,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch3-expression/binary_operation/binary_operation_test.go">
+        <entry file="file://$PROJECT_DIR$/ch2-type/const/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="220">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go">
+        <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch4-func/define/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/if/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="6" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/switch/main_test.go">
+        <entry file="file://$PROJECT_DIR$/ch4-func/argument/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +146,6 @@
         <option value="$PROJECT_DIR$/ch2-type/variable/main.go" />
         <option value="$PROJECT_DIR$/ch2-type/const/main.go" />
         <option value="$PROJECT_DIR$/requestion" />
-        <option value="$PROJECT_DIR$/ch2-type/const/main_test.go" />
         <option value="$PROJECT_DIR$/ch2-type/reference/main.go" />
         <option value="$PROJECT_DIR$/ch2-type/reference/main_test.go" />
         <option value="$PROJECT_DIR$/ch2-type/type/type_test.go" />
@@ -146,11 +153,19 @@
         <option value="$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go" />
         <option value="$PROJECT_DIR$/ch3-expression/control_flow/if/main_test.go" />
         <option value="$PROJECT_DIR$/ch3-expression/control_flow/switch/main_test.go" />
+        <option value="$PROJECT_DIR$/ch3-expression/control_flow/for/main.go" />
+        <option value="$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go" />
+        <option value="$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go" />
+        <option value="$PROJECT_DIR$/ch4-func/define/main_test.go" />
+        <option value="$PROJECT_DIR$/ch4-func/define/main.go" />
+        <option value="$PROJECT_DIR$/ch2-type/const/main_test.go" />
+        <option value="$PROJECT_DIR$/ch4-func/argument/main_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
@@ -159,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,8 +189,19 @@
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch3-expression" type="462c0819:PsiDirectoryNode" />
-              <item name="control_flow" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
+              <item name="argument" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
+              <item name="define" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +211,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,102 +236,102 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSwitch2 in go_learning/ch3-expression/control_flow/switch">
-    <configuration name="TestIf in go_learning/ch3-expression/control_flow/if" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestF3 in go_learning/ch4-func/argument">
+    <configuration name="TestContinue in go_learning/ch3-expression/control_flow/continue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/if" />
+      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/continue" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/control_flow/if" />
+      <package value="go_learning/ch3-expression/control_flow/continue" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestIf$" />
+      <pattern value="^TestContinue$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPointer in go_learning/ch3-expression/pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestF in go_learning/ch4-func/argument" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/pointer" />
+      <working_directory value="$PROJECT_DIR$/ch4-func/argument" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/pointer" />
+      <package value="go_learning/ch4-func/argument" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPointer$" />
+      <pattern value="^TestF$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPointer2 in go_learning/ch3-expression/pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestF2 in go_learning/ch4-func/argument" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/pointer" />
+      <working_directory value="$PROJECT_DIR$/ch4-func/argument" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/pointer" />
+      <package value="go_learning/ch4-func/argument" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPointer2$" />
+      <pattern value="^TestF2$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSwitch in go_learning/ch3-expression/control_flow/switch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestF3 in go_learning/ch4-func/argument" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/switch" />
+      <working_directory value="$PROJECT_DIR$/ch4-func/argument" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/control_flow/switch" />
+      <package value="go_learning/ch4-func/argument" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSwitch$" />
+      <pattern value="^TestF3$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSwitch2 in go_learning/ch3-expression/control_flow/switch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFor3 in go_learning/ch3-expression/control_flow/for" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/switch" />
+      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/for" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/control_flow/switch" />
+      <package value="go_learning/ch3-expression/control_flow/for" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSwitch2$" />
+      <pattern value="^TestFor3$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSwitch2 in go_learning/ch3-expression/control_flow/switch" />
-        <item itemvalue="Go Test.TestSwitch in go_learning/ch3-expression/control_flow/switch" />
-        <item itemvalue="Go Test.TestIf in go_learning/ch3-expression/control_flow/if" />
-        <item itemvalue="Go Test.TestPointer2 in go_learning/ch3-expression/pointer" />
-        <item itemvalue="Go Test.TestPointer in go_learning/ch3-expression/pointer" />
+        <item itemvalue="Go Test.TestF3 in go_learning/ch4-func/argument" />
+        <item itemvalue="Go Test.TestF2 in go_learning/ch4-func/argument" />
+        <item itemvalue="Go Test.TestF in go_learning/ch4-func/argument" />
+        <item itemvalue="Go Test.TestContinue in go_learning/ch3-expression/control_flow/continue" />
+        <item itemvalue="Go Test.TestFor3 in go_learning/ch3-expression/control_flow/for" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConst_in_go_learning_ch3-expression_binary_operation - 2020.03.04 at 20h 36m 30s.xml">
-      <configuration name="TestConst in go_learning/ch3-expression/binary_operation" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFor_in_go_learning_ch3-expression_control_flow_for - 2020.03.05 at 21h 22m 03s.xml">
+      <configuration name="TestFor in go_learning/ch3-expression/control_flow/for" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConst_in_go_learning_ch3-expression_binary_operation - 2020.03.04 at 20h 37m 09s.xml">
-      <configuration name="TestConst in go_learning/ch3-expression/binary_operation" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFor2_in_go_learning_ch3-expression_control_flow_for - 2020.03.06 at 07h 46m 51s.xml">
+      <configuration name="TestFor2 in go_learning/ch3-expression/control_flow/for" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestConst_in_go_learning_ch3-expression_binary_operation - 2020.03.04 at 20h 38m 20s.xml">
-      <configuration name="TestConst in go_learning/ch3-expression/binary_operation" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFor3_in_go_learning_ch3-expression_control_flow_for - 2020.03.06 at 07h 47m 36s.xml">
+      <configuration name="TestFor3 in go_learning/ch3-expression/control_flow/for" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPointer_in_go_learning_ch3-expression_pointer - 2020.03.04 at 20h 59m 19s.xml">
-      <configuration name="TestPointer in go_learning/ch3-expression/pointer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFor3_in_go_learning_ch3-expression_control_flow_for - 2020.03.06 at 07h 51m 40s.xml">
+      <configuration name="TestFor3 in go_learning/ch3-expression/control_flow/for" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPointer2_in_go_learning_ch3-expression_pointer - 2020.03.04 at 21h 01m 46s.xml">
-      <configuration name="TestPointer2 in go_learning/ch3-expression/pointer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFor3_in_go_learning_ch3-expression_control_flow_for - 2020.03.06 at 07h 52m 05s.xml">
+      <configuration name="TestFor3 in go_learning/ch3-expression/control_flow/for" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestIf_in_go_learning_ch3-expression_control_flow_if - 2020.03.05 at 19h 58m 16s.xml">
-      <configuration name="TestIf in go_learning/ch3-expression/control_flow/if" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestContinue_in_go_learning_ch3-expression_control_flow_continue - 2020.03.06 at 19h 55m 16s.xml">
+      <configuration name="TestContinue in go_learning/ch3-expression/control_flow/continue" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestIf_in_go_learning_ch3-expression_control_flow_if - 2020.03.05 at 19h 58m 38s.xml">
-      <configuration name="TestIf in go_learning/ch3-expression/control_flow/if" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestF_in_go_learning_ch4-func_argument - 2020.03.06 at 20h 10m 51s.xml">
+      <configuration name="TestF in go_learning/ch4-func/argument" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestIf_in_go_learning_ch3-expression_control_flow_if - 2020.03.05 at 19h 58m 52s.xml">
-      <configuration name="TestIf in go_learning/ch3-expression/control_flow/if" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestF2_in_go_learning_ch4-func_argument - 2020.03.06 at 20h 17m 00s.xml">
+      <configuration name="TestF2 in go_learning/ch4-func/argument" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSwitch_in_go_learning_ch3-expression_control_flow_switch - 2020.03.05 at 20h 12m 34s.xml">
-      <configuration name="TestSwitch in go_learning/ch3-expression/control_flow/switch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestF2_in_go_learning_ch4-func_argument - 2020.03.06 at 20h 17m 36s.xml">
+      <configuration name="TestF2 in go_learning/ch4-func/argument" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSwitch2_in_go_learning_ch3-expression_control_flow_switch - 2020.03.05 at 20h 17m 31s.xml">
-      <configuration name="TestSwitch2 in go_learning/ch3-expression/control_flow/switch" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestF3_in_go_learning_ch4-func_argument - 2020.03.07 at 20h 16m 23s.xml">
+      <configuration name="TestF3 in go_learning/ch4-func/argument" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -321,20 +347,20 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27485853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25399646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.31083483" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46536413" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.37655416" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4742451" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -439,16 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2-type/const/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2-type/type/type_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -463,10 +479,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/if/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/switch/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5640">
           <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-type/const/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4-func/define/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="6" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -508,24 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch3-expression/pointer/pointer_test.go">
+    <entry file="file://$PROJECT_DIR$/ch4-func/argument/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/if/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/switch/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
