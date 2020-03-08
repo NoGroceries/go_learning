@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e9014b-80b6-4baa-98a5-5b5edcbd8e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch4-func/argument/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4-func/define/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/control_flow/continue/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2-type/const/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-              <folding>
-                <element signature="e#14#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch3-expression/control_flow/for/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,14 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch4-func/argument/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="118">
               <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#18#46#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4-func/defer/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -160,6 +153,8 @@
         <option value="$PROJECT_DIR$/ch4-func/define/main.go" />
         <option value="$PROJECT_DIR$/ch2-type/const/main_test.go" />
         <option value="$PROJECT_DIR$/ch4-func/argument/main_test.go" />
+        <option value="$PROJECT_DIR$/ch4-func/defer/main_test.go" />
+        <option value="$PROJECT_DIR$/ch4-func/defer/main.go" />
       </list>
     </option>
   </component>
@@ -195,13 +190,7 @@
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
-              <item name="argument" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
-              <item name="define" type="462c0819:PsiDirectoryNode" />
+              <item name="defer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +225,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestF3 in go_learning/ch4-func/argument">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch4-func/defer/main.go" />
+      <package value="go_learning" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestContinue in go_learning/ch3-expression/control_flow/continue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/continue" />
@@ -281,24 +279,13 @@
       <pattern value="^TestF3$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFor3 in go_learning/ch3-expression/control_flow/for" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch3-expression/control_flow/for" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/ch3-expression/control_flow/for" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFor3$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestF3 in go_learning/ch4-func/argument" />
         <item itemvalue="Go Test.TestF2 in go_learning/ch4-func/argument" />
         <item itemvalue="Go Test.TestF in go_learning/ch4-func/argument" />
         <item itemvalue="Go Test.TestContinue in go_learning/ch3-expression/control_flow/continue" />
-        <item itemvalue="Go Test.TestFor3 in go_learning/ch3-expression/control_flow/for" />
       </list>
     </recent_temporary>
   </component>
@@ -350,9 +337,10 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27485853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25399646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08525755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,11 +569,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4-func/argument/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="118">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#18#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4-func/defer/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
