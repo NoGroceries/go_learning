@@ -40,3 +40,13 @@ func BenchmarkSlice(b *testing.B) {
 		slice()
 	}
 }
+
+func TestCopy(t *testing.T) {
+	s:=[]int{0,1,2,3,4,5,6,7,8,9}
+
+	s1:=s[5:8] //5,6,7
+    n:=copy(s[4:],s1)	//s[4:] {4,5,6,7,8,9}   对应位置copy，s1的3个元素替换s[4:]前3个元素
+    fmt.Printf("%d,%v\n",n,s)
+
+
+}
