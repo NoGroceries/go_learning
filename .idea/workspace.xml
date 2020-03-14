@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52e9014b-80b6-4baa-98a5-5b5edcbd8e50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch5-data/slice/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch5-data/slice/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch6-method/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch6-method/main_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +14,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5-data/string/main_test.go">
+        <entry file="file://$PROJECT_DIR$/ch5-data/slice/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5-data/array/main_test.go">
+        <entry file="file://$PROJECT_DIR$/ch6-method/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#15#43#0" expanded="true" />
+                <element signature="e#13#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5-data/slice/main_test.go">
+        <entry file="file://$PROJECT_DIR$/ch8-concurrency/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="329">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
-                <element signature="e#15#43#0" expanded="true" />
+                <element signature="e#25#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5-data/struct/main_test.go">
+        <entry file="file://C:/Go/src/os/file_windows.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#17#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -61,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="4140">
               <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
             </state>
           </provider>
@@ -70,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch5-data/slice/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state relative-caret-position="1020">
               <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="e#29#56#0" expanded="true" />
@@ -82,11 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch5-data/map/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2059">
+            <state relative-caret-position="2130">
               <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch5-data/map/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
+            <state relative-caret-position="720">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -171,10 +165,13 @@
         <option value="$PROJECT_DIR$/ch5-data/map/main_test.go" />
         <option value="$PROJECT_DIR$/ch5-data/struct/main_test.go" />
         <option value="$PROJECT_DIR$/ch5-data/slice/main_test.go" />
+        <option value="$PROJECT_DIR$/ch6/main_test.go" />
+        <option value="$PROJECT_DIR$/ch6-method/main_test.go" />
+        <option value="$PROJECT_DIR$/ch8-concurrency/main_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -192,27 +189,6 @@
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch3-expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch4-func" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5-data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5-data" type="462c0819:PsiDirectoryNode" />
-              <item name="slice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -246,91 +222,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestCopy in go_learning/ch5-data/slice">
-    <configuration name="BenchmarkSlice in go_learning/ch5-data/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestConc2 in go_learning/ch8-concurrency">
+    <configuration name="Test1 in go_learning/ch6" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch5-data/slice" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/ch5-data/slice" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkSlice$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCopy in go_learning/ch5-data/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch5-data/slice" />
+      <working_directory value="$PROJECT_DIR$/ch6" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch5-data/slice" />
+      <package value="go_learning/ch6" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCopy$" />
+      <pattern value="^Test1$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMap3 in go_learning/ch5-data/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConc in go_learning/ch8-concurrency" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch5-data/map" />
+      <working_directory value="$PROJECT_DIR$/ch8-concurrency" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch5-data/map" />
+      <package value="go_learning/ch8-concurrency" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMap3$" />
+      <pattern value="^TestConc$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMap4 in go_learning/ch5-data/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConc2 in go_learning/ch8-concurrency" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch5-data/map" />
+      <working_directory value="$PROJECT_DIR$/ch8-concurrency" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch5-data/map" />
+      <package value="go_learning/ch8-concurrency" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMap4$" />
+      <pattern value="^TestConc2$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStruct in go_learning/ch5-data/struct" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFile in go_learning/ch6-method" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch5-data/struct" />
+      <working_directory value="$PROJECT_DIR$/ch6-method" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch5-data/struct" />
+      <package value="go_learning/ch6-method" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStruct$" />
+      <pattern value="^TestFile$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLastLen in go_learning/ch6-method" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/ch6-method" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch6-method" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLastLen$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCopy in go_learning/ch5-data/slice" />
-        <item itemvalue="Go Test.TestStruct in go_learning/ch5-data/struct" />
-        <item itemvalue="Go Test.BenchmarkSlice in go_learning/ch5-data/slice" />
-        <item itemvalue="Go Test.TestMap4 in go_learning/ch5-data/map" />
-        <item itemvalue="Go Test.TestMap3 in go_learning/ch5-data/map" />
+        <item itemvalue="Go Test.TestConc2 in go_learning/ch8-concurrency" />
+        <item itemvalue="Go Test.TestConc in go_learning/ch8-concurrency" />
+        <item itemvalue="Go Test.TestLastLen in go_learning/ch6-method" />
+        <item itemvalue="Go Test.TestFile in go_learning/ch6-method" />
+        <item itemvalue="Go Test.Test1 in go_learning/ch6" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMap3_in_go_learning_ch5-data_map - 2020.03.12 at 20h 04m 02s.xml">
-      <configuration name="TestMap3 in go_learning/ch5-data/map" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMap3_in_go_learning_ch5-data_map - 2020.03.12 at 20h 09m 44s.xml">
-      <configuration name="TestMap3 in go_learning/ch5-data/map" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMap4_in_go_learning_ch5-data_map - 2020.03.12 at 20h 25m 04s.xml">
-      <configuration name="TestMap4 in go_learning/ch5-data/map" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMap4_in_go_learning_ch5-data_map - 2020.03.12 at 20h 25m 39s.xml">
-      <configuration name="TestMap4 in go_learning/ch5-data/map" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMap4_in_go_learning_ch5-data_map - 2020.03.12 at 20h 25m 44s.xml">
-      <configuration name="TestMap4 in go_learning/ch5-data/map" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BenchmarkSlice_in_go_learning_ch5-data_slice - 2020.03.12 at 20h 26m 26s.xml">
-      <configuration name="BenchmarkSlice in go_learning/ch5-data/slice" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestStruct_in_go_learning_ch5-data_struct - 2020.03.12 at 20h 37m 59s.xml">
       <configuration name="TestStruct in go_learning/ch5-data/struct" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -343,6 +301,24 @@
     <history-entry file="TestCopy_in_go_learning_ch5-data_slice - 2020.03.13 at 07h 25m 31s.xml">
       <configuration name="TestCopy in go_learning/ch5-data/slice" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test1_in_go_learning_ch6 - 2020.03.13 at 21h 21m 26s.xml">
+      <configuration name="Test1 in go_learning/ch6" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1_in_go_learning_ch6 - 2020.03.13 at 21h 22m 52s.xml">
+      <configuration name="Test1 in go_learning/ch6" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFile_in_go_learning_ch6-method - 2020.03.14 at 17h 54m 57s.xml">
+      <configuration name="TestFile in go_learning/ch6-method" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLastLen_in_go_learning_ch6-method - 2020.03.14 at 18h 13m 58s.xml">
+      <configuration name="TestLastLen in go_learning/ch6-method" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConc_in_go_learning_ch8-concurrency - 2020.03.14 at 21h 02m 06s.xml">
+      <configuration name="TestConc in go_learning/ch8-concurrency" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConc2_in_go_learning_ch8-concurrency - 2020.03.14 at 21h 04m 53s.xml">
+      <configuration name="TestConc2 in go_learning/ch8-concurrency" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,29 +330,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16410671" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16639742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58081704" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05319149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60035527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.20959148" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5452931" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.5168739" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19326241" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" side_tool="true" visible="true" weight="0.0646726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" visible="true" weight="0.0646726" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
@@ -636,6 +613,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/string/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/array/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/struct/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/slice/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#29#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/map/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5-data/map/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch1/channel/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -650,73 +685,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/string/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/slice/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/map/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/array/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/map/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2059">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/struct/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#17#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5-data/slice/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="153">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/os/file_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6-method/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#15#43#0" expanded="true" />
+            <element signature="e#13#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch8-concurrency/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
