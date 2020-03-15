@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e9014b-80b6-4baa-98a5-5b5edcbd8e50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch6-method/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch6-method/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch8-concurrency/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch8-concurrency/main_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +33,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch8-concurrency/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch8-concurrency/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="80" column="15" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="80" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/runtime/proc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="689" selection-start-line="689" selection-end-line="689" />
             </state>
           </provider>
         </entry>
@@ -51,36 +77,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
               <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4140">
-              <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5-data/slice/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="e#29#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5-data/map/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -168,6 +164,7 @@
         <option value="$PROJECT_DIR$/ch6/main_test.go" />
         <option value="$PROJECT_DIR$/ch6-method/main_test.go" />
         <option value="$PROJECT_DIR$/ch8-concurrency/main_test.go" />
+        <option value="$PROJECT_DIR$/ch8-concurrency/main.go" />
       </list>
     </option>
   </component>
@@ -189,6 +186,11 @@
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ch8-concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -222,16 +224,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestConc2 in go_learning/ch8-concurrency">
-    <configuration name="Test1 in go_learning/ch6" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch6" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/ch6" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch8-concurrency/main.go" />
+      <package value="go_learning" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test1$" />
       <method v="2" />
     </configuration>
     <configuration name="TestConc in go_learning/ch8-concurrency" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -280,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestConc2 in go_learning/ch8-concurrency" />
         <item itemvalue="Go Test.TestConc in go_learning/ch8-concurrency" />
         <item itemvalue="Go Test.TestLastLen in go_learning/ch6-method" />
         <item itemvalue="Go Test.TestFile in go_learning/ch6-method" />
-        <item itemvalue="Go Test.Test1 in go_learning/ch6" />
       </list>
     </recent_temporary>
   </component>
@@ -333,20 +333,20 @@
     <frame x="-8" y="-8" width="1296" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16639742" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16639742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05319149" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.60035527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13297872" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15425532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.5168739" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19326241" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33687943" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -356,26 +356,27 @@
       <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" visible="true" weight="0.0646726" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16639742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20426288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.60035527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12588653" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27482268" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.59325045" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22912966" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.5168739" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33687943" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" visible="true" weight="0.0646726" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +421,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ch8-concurrency/main.go</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ch1/func/main.go">
@@ -685,17 +698,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5-data/slice/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/os/file_windows.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch8-concurrency/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,13 +739,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch8-concurrency/main_test.go">
+    <entry file="file://$PROJECT_DIR$/ch5-data/slice/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch8-concurrency/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="80" column="15" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="80" selection-end-column="15" />
         </state>
       </provider>
     </entry>

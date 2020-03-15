@@ -1,4 +1,4 @@
-package ch8_concurrency
+package main
 
 import (
 	"sync"
