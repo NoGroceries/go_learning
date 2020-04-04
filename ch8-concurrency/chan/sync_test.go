@@ -1,6 +1,9 @@
 package _chan
 
 import (
+	"container/ring"
+	"fmt"
+	"sort"
 	"sync"
 	"testing"
 	"time"
@@ -37,4 +40,29 @@ func TestMutex(t *testing.T) {
 	}()
 
 	wg.Wait()
+}
+
+
+func lastRemaining(n int, m int)  {
+	r:=ring.New(n)
+
+	for i:=0;i<n;i++ {
+		r.Value=i
+		r=r.Next()
+	}
+
+	for r.Len()>1 {
+		x:= r.Move(m-1)
+		x.Prev() = x.Next()
+		x.Next().Prev() = x.Prev()
+		r =x.Next()
+
+	}
+	sort.Float64s()
+
+	fmt.Println(r.Value)
+}
+
+func TestLC62(t *testing.T) {
+	lastRemaining(5,3)
 }

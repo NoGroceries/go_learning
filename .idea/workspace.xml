@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e9014b-80b6-4baa-98a5-5b5edcbd8e50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch10-reflect/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10-reflect/value_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10-reflect/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch10-reflect/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10-reflect/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch10-reflect/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-reflect/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-reflect/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch10-reflect/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,61 +15,69 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="go_learning" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch8-concurrency/select/main_test.go">
+        <entry file="file://$PROJECT_DIR$/ch10-reflect/type_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="1140">
+              <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
               <folding>
-                <element signature="e#17#46#0" expanded="true" />
+                <element signature="n#!!block;n#TestExe1#0" />
+                <element signature="e#304#337#0" />
+                <element signature="e#352#382#0" />
+                <element signature="n#!!block;n#TestExe2#0" />
+                <element signature="e#483#502#0" />
+                <element signature="e#539#738#0" />
+                <element signature="e#616#735#0" />
+                <element signature="e#660#731#0" />
+                <element signature="n#!!block;n#TestExe3#0" />
+                <element signature="e#931#937#0" />
+                <element signature="e#994#1007#0" />
+                <element signature="n#!!block;n#av#0" />
+                <element signature="n#!!block;n#ap#0" />
+                <element signature="n#!!block;n#bv#0" />
+                <element signature="n#!!block;n#bp#0" />
+                <element signature="n#!!block;n#TestExe4#0" />
+                <element signature="e#1173#1186#0" />
+                <element signature="e#1217#1320#0" />
+                <element signature="e#1279#1317#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/builtin/builtin.go">
+        <entry file="file://$PROJECT_DIR$/ch10-reflect/type.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="256" column="5" selection-start-line="256" selection-start-column="5" selection-end-line="256" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch8-concurrency/chan/mode_test.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch10-reflect/value_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
-              <folding>
-                <element signature="e#15#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-343">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="259">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -75,54 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/exe1/b.go">
+        <entry file="file://C:/Go/src/unicode/digit.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/exe1/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch10-reflect/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="97" lean-forward="true" selection-start-line="65" selection-end-line="97" />
-              <folding>
-                <element signature="e#22#54#0" expanded="true" />
-                <element signature="n#!!block;n#TestExe2#0" />
-                <element signature="n#!!block;n#TestExe2#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch10-reflect/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/reflect/type.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -187,13 +154,14 @@
         <option value="$PROJECT_DIR$/ch8-concurrency/chan/main_test.go" />
         <option value="$PROJECT_DIR$/ch8-concurrency/select/main_test.go" />
         <option value="$PROJECT_DIR$/ch8-concurrency/chan/mode_test.go" />
-        <option value="$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go" />
         <option value="$PROJECT_DIR$/other/main_test.go" />
         <option value="$PROJECT_DIR$/ch9/b.go" />
         <option value="$PROJECT_DIR$/ch9/exe1/b.go" />
         <option value="$PROJECT_DIR$/ch9/exe1/main.go" />
-        <option value="$PROJECT_DIR$/ch10-reflect/main_test.go" />
         <option value="$PROJECT_DIR$/ch10-reflect/main.go" />
+        <option value="$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go" />
+        <option value="$PROJECT_DIR$/ch10-reflect/main_test.go" />
+        <option value="$PROJECT_DIR$/ch10-reflect/value_test.go" />
       </list>
     </option>
   </component>
@@ -258,17 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch10-reflect/main.go" />
-      <package value="go_learning" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestExe1 in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestRune in go_learning/ch10-reflect">
+    <configuration name="TestLC1162 in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$/ch10-reflect" />
       <framework value="gotest" />
@@ -276,10 +235,21 @@
       <package value="go_learning/ch10-reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExe1$" />
+      <pattern value="^TestLC1162$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestExe2 in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/ch8-concurrency/chan" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch8-concurrency/chan" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLC62$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNumberField in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$/ch10-reflect" />
       <framework value="gotest" />
@@ -287,10 +257,10 @@
       <package value="go_learning/ch10-reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExe2$" />
+      <pattern value="^TestNumberField$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestExe3 in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRune in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$/ch10-reflect" />
       <framework value="gotest" />
@@ -298,10 +268,10 @@
       <package value="go_learning/ch10-reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExe3$" />
+      <pattern value="^TestRune$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestExe4 in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStructTag in go_learning/ch10-reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$/ch10-reflect" />
       <framework value="gotest" />
@@ -309,49 +279,49 @@
       <package value="go_learning/ch10-reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestExe4$" />
+      <pattern value="^TestStructTag$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Test.TestExe4 in go_learning/ch10-reflect" />
-        <item itemvalue="Go Test.TestExe3 in go_learning/ch10-reflect" />
-        <item itemvalue="Go Test.TestExe2 in go_learning/ch10-reflect" />
-        <item itemvalue="Go Test.TestExe1 in go_learning/ch10-reflect" />
+        <item itemvalue="Go Test.TestRune in go_learning/ch10-reflect" />
+        <item itemvalue="Go Test.TestStructTag in go_learning/ch10-reflect" />
+        <item itemvalue="Go Test.TestNumberField in go_learning/ch10-reflect" />
+        <item itemvalue="Go Test.TestLC62 in go_learning/ch8-concurrency/chan" />
+        <item itemvalue="Go Test.TestLC1162 in go_learning/ch10-reflect" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExe3_in_go_learning_ch10-reflect - 2020.03.22 at 18h 06m 38s.xml">
-      <configuration name="TestExe3 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 39m 34s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe3_in_go_learning_ch10-reflect - 2020.03.22 at 18h 07m 10s.xml">
-      <configuration name="TestExe3 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 39m 47s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe3_in_go_learning_ch10-reflect - 2020.03.22 at 18h 07m 26s.xml">
-      <configuration name="TestExe3 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 40m 26s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe3_in_go_learning_ch10-reflect - 2020.03.22 at 18h 09m 04s.xml">
-      <configuration name="TestExe3 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 42m 55s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe1_in_go_learning_ch10-reflect - 2020.03.22 at 18h 34m 45s.xml">
-      <configuration name="TestExe1 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 44m 08s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe4_in_go_learning_ch10-reflect - 2020.03.22 at 18h 40m 52s.xml">
-      <configuration name="TestExe4 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLC62_in_go_learning_ch8-concurrency_chan - 2020.03.30 at 14h 49m 37s.xml">
+      <configuration name="TestLC62 in go_learning/ch8-concurrency/chan" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe4_in_go_learning_ch10-reflect - 2020.03.22 at 18h 42m 11s.xml">
-      <configuration name="TestExe4 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNumberField_in_go_learning_ch10-reflect - 2020.04.02 at 07h 52m 11s.xml">
+      <configuration name="TestNumberField in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe4_in_go_learning_ch10-reflect - 2020.03.22 at 18h 42m 25s.xml">
-      <configuration name="TestExe4 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestStructTag_in_go_learning_ch10-reflect - 2020.04.02 at 07h 55m 46s.xml">
+      <configuration name="TestStructTag in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe4_in_go_learning_ch10-reflect - 2020.03.22 at 18h 47m 46s.xml">
-      <configuration name="TestExe4 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRune_in_go_learning_ch10-reflect - 2020.04.03 at 21h 30m 36s.xml">
+      <configuration name="TestRune in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestExe4_in_go_learning_ch10-reflect - 2020.03.22 at 18h 47m 50s.xml">
-      <configuration name="TestExe4 in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRune_in_go_learning_ch10-reflect - 2020.04.03 at 21h 31m 35s.xml">
+      <configuration name="TestRune in go_learning/ch10-reflect" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -367,13 +337,13 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16895716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.22069523" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16895716" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16895716" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25754884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38721138" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.053285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29129663" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27440348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -386,31 +356,33 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" visible="true" weight="0.16491511" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49759614" weight="0.32983023" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" sideWeight="0.50240386" side_tool="true" weight="0.32983023" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16653194" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.12287793" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16895716" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16895716" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37833038" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.054054055" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26110125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27440348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.5168739" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2072072" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.88987565" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3179396" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" side_tool="true" visible="true" weight="0.0646726" />
+      <window_info active="true" anchor="right" id="Database" order="3" sideWeight="0.49759614" visible="true" weight="0.32983023" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="4" sideWeight="0.50240386" side_tool="true" visible="true" weight="0.32983023" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,22 +442,63 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/ch10-reflect/main_test.go</url>
-          <line>17</line>
-          <properties />
+          <url>file://$PROJECT_DIR$/ch10-reflect/type_test.go</url>
+          <line>18</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/ch10-reflect/main_test.go</url>
-          <line>85</line>
-          <properties />
+          <url>file://$PROJECT_DIR$/ch10-reflect/type_test.go</url>
+          <line>86</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ch10-reflect/type_test.go</url>
+          <line>121</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="r.Len" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>r.Len</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>r.Len()</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r.Len</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>string(41)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m[string(v)]</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>b.Name()</expression-string>
         <language-id>go</language-id>
@@ -494,27 +507,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch1/intf/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1/func/questions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2-type/variable/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2-type/reference/main.go" />
     <entry file="file://$PROJECT_DIR$/requestion">
       <provider selected="true" editor-type-id="text-editor">
@@ -801,7 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch8-concurrency/select/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state relative-caret-position="900">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding>
             <element signature="e#17#46#0" expanded="true" />
@@ -809,33 +801,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7680">
+          <caret line="256" column="5" selection-start-line="256" selection-start-column="5" selection-end-line="256" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch8-concurrency/chan/mode_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
+        <state relative-caret-position="2640">
           <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
-          <folding>
-            <element signature="e#15#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go">
+    <entry file="file://C:/Go/src/reflect/type.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="900">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/main_test.go">
+    <entry file="file://$PROJECT_DIR$/ch9/exe1/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -846,45 +836,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/exe1/main.go">
+    <entry file="file://$PROJECT_DIR$/other/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="256" column="5" selection-start-line="256" selection-start-column="5" selection-end-line="256" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/reflect/type.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch10-reflect/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="97" lean-forward="true" selection-start-line="65" selection-end-line="97" />
+        <state relative-caret-position="510">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#22#54#0" expanded="true" />
-            <element signature="n#!!block;n#TestExe2#0" />
-            <element signature="n#!!block;n#TestExe2#1" />
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch10-reflect/main.go">
+    <entry file="file://$PROJECT_DIR$/ch8-concurrency/chan/sync_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="121">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
           <folding>
-            <element signature="e#14#53#0" expanded="true" />
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="286" column="28" lean-forward="true" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch10-reflect/type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch10-reflect/type_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#TestExe1#0" />
+            <element signature="e#304#337#0" />
+            <element signature="e#352#382#0" />
+            <element signature="n#!!block;n#TestExe2#0" />
+            <element signature="e#483#502#0" />
+            <element signature="e#539#738#0" />
+            <element signature="e#616#735#0" />
+            <element signature="e#660#731#0" />
+            <element signature="n#!!block;n#TestExe3#0" />
+            <element signature="e#931#937#0" />
+            <element signature="e#994#1007#0" />
+            <element signature="n#!!block;n#av#0" />
+            <element signature="n#!!block;n#ap#0" />
+            <element signature="n#!!block;n#bv#0" />
+            <element signature="n#!!block;n#bp#0" />
+            <element signature="n#!!block;n#TestExe4#0" />
+            <element signature="e#1173#1186#0" />
+            <element signature="e#1217#1320#0" />
+            <element signature="e#1279#1317#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/unicode/digit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch10-reflect/value_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

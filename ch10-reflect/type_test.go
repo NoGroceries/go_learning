@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 	"reflect"
 	"testing"
 )
@@ -95,3 +96,26 @@ func TestExe4(x *testing.T) {
 		}
 	}
 }
+
+func TestNumberField(x *testing.T) {
+	var s http.Server
+	t:=reflect.TypeOf(s)
+	for i:=0;i<t.NumField();i++ {
+		x.Log(t.Field(i).Name)
+	}
+}
+
+func TestStructTag(x *testing.T) {
+	var u userWithTag
+	t:=reflect.TypeOf(u)
+	for i:=0;i<t.NumField();i++ {
+		x.Log(t.Field(i).Tag)
+	}
+}
+type userWithTag struct {
+	name string `field:"name" type:"varchar(50)"`
+	age int `field:"age" type:"int"`
+}
+
+
+
